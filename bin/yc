@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+//use colorful's toxic mix string object
+require('colorful').toxic();
+
+//read process.argv
+if (!process.argv[2]) {
+  console.log('yc ~ ' + require('../package.json').version.green);
+
+  console.log('It is a lib for command line'.grey);
+  
+  return;
+}
+
+var tool = require('../index');
+
+//tool.fanyi(process.argv.slice(2).join(' '));
