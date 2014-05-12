@@ -1,6 +1,6 @@
 {
   "name": "yc-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "this is core for yc",
   "main": "index.js",
   "bin": {
@@ -19,6 +19,8 @@
     "tool"
   ],
   "dependencies": {
+    "iconv-lite": "0.2.11",
+    "rimraf": "2.2.8"
   },
   "author": "zhangyaochun",
   "license": "BSD-2-Clause",
