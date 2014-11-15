@@ -1,6 +1,6 @@
 {
   "name": "yc-core",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "this is core for yc",
   "main": "index.js",
   "bin": {
